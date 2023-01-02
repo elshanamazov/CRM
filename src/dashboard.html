@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+@include('partials/head.html')
+
+<body class="page__body">
+  <div class="site-container">
+    @include('partials/header.html')
+    <nav class="nav" title="menu">
+      <ul class="nav__list list-reset">
+        <li class="nav__item">
+          <a href="#" class="nav__link">
+            <img loading="lazy" src="./img/svg/main-page-icon.svg" class="icon icon--mainpage" width="16" height="16"
+              alt="main page icon">
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">
+            <img loading="lazy" src="./img/svg/leads-icons.svg" class="icon icon--leads" width="16" height="16"
+              alt="leads icon">
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">
+            <img loading="lazy" src="./img/svg/active-requests.svg" class="icon icon--requests" width="16" height="16"
+              alt="requests icon">
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main class="main">
+      <section class="badge">
+        <div class="container">
+          <h1 class="title">Рабочее окружение</h1>
+          <div class="badge__wrap">
+            <div class="badge__header">
+              <div class="badge__item border-style">
+                <div class="badge__item--icon">
+                  <!-- <img src="@img" alt=""> -->
+                </div>
+                <h3 class="badge__item--amount third-title">13 912</h3>
+                <p class="badge__item--lids desc">Лиды</p>
+              </div>
+              <div class="badge__item border-style">
+                <div class="badge__item--icon">
+                  <!-- <img src="@img" alt=""> -->
+                </div>
+                <h3 class="badge__item--amount third-title">13 912</h3>
+                <p class="badge__item--lids desc">Лиды</p>
+              </div>
+              <div class="badge__item border-style">
+                <div class="badge__item--icon">
+                  <!-- <img src="@img" alt=""> -->
+                </div>
+                <h3 class="badge__item--amount third-title">13 912</h3>
+                <p class="badge__item--lids desc">Лиды</p>
+              </div>
+              <div class="badge__item border-style">
+                <div class="badge__item--icon">
+                  <!-- <img src="@img" alt=""> -->
+                </div>
+                <h3 class="badge__item--amount third-title">13 912</h3>
+                <p class="badge__item--lids desc">Лиды</p>
+              </div>
+              <div class="badge__item border-style">
+                <div class="badge__item--icon">
+                  <!-- <img src="@img" alt=""> -->
+                </div>
+                <h3 class="badge__item--amount third-title">13 912</h3>
+                <p class="badge__item--lids desc">Лиды</p>
+              </div>
+            </div>
+            <!-- Left badge -->
+            <div class="badge__left border-style">
+              <h2 class="badge__title second-title">Абсолютные показатели</h2>
+              <div class="badge__left--wrap">
+                <div class="badge__left--item border-style">
+                  <p class="badge__left--value">5,3%</p>
+                </div>
+                <div class="badge__left--item border-style">
+                  <p class="badge__left--value">7,8%</p>
+                </div>
+                <div class="badge__left--item border-style">
+                  <p class="badge__left--value">1,5%</p>
+                </div>
+              </div>
+            </div>
+            <!-- BIG badge -->
+            <div class="badge__big border-style">
+              <div class="badge__big--header">
+                <h2 class="second-title">Активные заявки</h2>
+                <button class=" badge__big--btn btn-reset ">
+                  <span class="dots"></span>
+                </button>
+              </div>
+              <div class="badge__big--body">
+                <div class="badge__big--request">
+                  <div class="badge__big--status">В работе</div>
+                  <p class="badge__big--name">Иванов Сергей</p>
+                  <p class="badge__big--email">sergay.ivanov@mail.ru</p>
+                  <p class="badge__big--phone">8 (123) 893 09 93</p>
+                </div>
+                <div class="badge__big--request">
+                  <div class="badge__big--status">В работе</div>
+                  <p class="badge__big--name">Иванов Сергей</p>
+                  <p class="badge__big--email">sergay.ivanov@mail.ru</p>
+                  <p class="badge__big--phone">8 (123) 893 09 93</p>
+                </div>
+                <div class="badge__big--request">
+                  <div class="badge__big--status">В работе</div>
+                  <p class="badge__big--name">Иванов Сергей</p>
+                  <p class="badge__big--email">sergay.ivanov@mail.ru</p>
+                  <p class="badge__big--phone">8 (123) 893 09 93</p>
+                </div>
+                <div class="badge__big--request">
+                  <div class="badge__big--status">В работе</div>
+                  <p class="badge__big--name">Иванов Сергей</p>
+                  <p class="badge__big--email">sergay.ivanov@mail.ru</p>
+                  <p class="badge__big--phone">8 (123) 893 09 93</p>
+                </div>
+              </div>
+              <button class="btn-more btn-reset">Показать все</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- @include('html/h1.html') пример include -->
+  </div>
+</body>
+
+</html>

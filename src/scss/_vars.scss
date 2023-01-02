@@ -1,0 +1,20 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  // base
+  --font-family: "Golos Text", sans-serif;
+  --content-width: 1000px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // colors
+  --light-color: #fff;
+  --accent-color: #FF9933;
+  --value-color:  #5FD24C;
+  --dark-color: #262626;
+  --text-color: #151515;
+  --text-color-opacity: rgba(21, 21, 21, 0.5);
+  --grey-color: #727272;
+  --grey-background-color: #D9D9D9;
+  --light-background-color:#FDFDFD;
+}
